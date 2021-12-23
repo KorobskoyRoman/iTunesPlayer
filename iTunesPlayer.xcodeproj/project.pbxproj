@@ -13,9 +13,25 @@
 		9C35B2C0277235370038F3E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B2BE277235370038F3E9 /* Main.storyboard */; };
 		9C35B2C22772353A0038F3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B2C12772353A0038F3E9 /* Assets.xcassets */; };
 		9C35B2C52772353A0038F3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B2C32772353A0038F3E9 /* LaunchScreen.storyboard */; };
+		9C35B2CD277235540038F3E9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2CC277235540038F3E9 /* MainTabBarController.swift */; };
+		9C35B2CF2772381C0038F3E9 /* SearchMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2CE2772381C0038F3E9 /* SearchMusicViewController.swift */; };
+		9C35B2D2277254AE0038F3E9 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2D1277254AE0038F3E9 /* TrackModel.swift */; };
+		9C35B2D42774CC920038F3E9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2D32774CC920038F3E9 /* NetworkManager.swift */; };
+		9C35B2EB2774D7A10038F3E9 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2E42774D7A10038F3E9 /* SearchPresenter.swift */; };
+		9C35B2EC2774D7A10038F3E9 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2E52774D7A10038F3E9 /* SearchWorker.swift */; };
+		9C35B2ED2774D7A10038F3E9 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2E62774D7A10038F3E9 /* SearchRouter.swift */; };
+		9C35B2EE2774D7A10038F3E9 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2E72774D7A10038F3E9 /* SearchModels.swift */; };
+		9C35B2EF2774D7A10038F3E9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2E82774D7A10038F3E9 /* SearchViewController.swift */; };
+		9C35B2F02774D7A10038F3E9 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2E92774D7A10038F3E9 /* SearchInteractor.swift */; };
+		9C35B2F32774D8EB0038F3E9 /* SearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B2F22774D8EB0038F3E9 /* SearchViewController.storyboard */; };
+		9C35B2F52774E04C0038F3E9 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2F42774E04C0038F3E9 /* UIViewController+Storyboard.swift */; };
+		9C35B2F92774F1600038F3E9 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B2F82774F1600038F3E9 /* TrackCell.xib */; };
+		9C35B2FB2774F1780038F3E9 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2FA2774F1780038F3E9 /* TrackCell.swift */; };
+		D4082A4E54107F99F46F1A00 /* Pods_iTunesPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544B1E76A8C35C75D1544A3D /* Pods_iTunesPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544B1E76A8C35C75D1544A3D /* Pods_iTunesPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C35B2B5277235370038F3E9 /* iTunesPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C35B2B8277235370038F3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C35B2BA277235370038F3E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,22 @@
 		9C35B2C12772353A0038F3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C35B2C42772353A0038F3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C35B2C62772353A0038F3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C35B2CC277235540038F3E9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9C35B2CE2772381C0038F3E9 /* SearchMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMusicViewController.swift; sourceTree = "<group>"; };
+		9C35B2D1277254AE0038F3E9 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		9C35B2D32774CC920038F3E9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9C35B2E42774D7A10038F3E9 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		9C35B2E52774D7A10038F3E9 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
+		9C35B2E62774D7A10038F3E9 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		9C35B2E72774D7A10038F3E9 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		9C35B2E82774D7A10038F3E9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9C35B2E92774D7A10038F3E9 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		9C35B2F22774D8EB0038F3E9 /* SearchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchViewController.storyboard; sourceTree = "<group>"; };
+		9C35B2F42774E04C0038F3E9 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
+		9C35B2F82774F1600038F3E9 /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
+		9C35B2FA2774F1780038F3E9 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		A431F212B31CED4F71D6F4FB /* Pods-iTunesPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesPlayer.release.xcconfig"; path = "Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		A6D8619E505B80D438058AEC /* Pods-iTunesPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesPlayer.debug.xcconfig"; path = "Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4082A4E54107F99F46F1A00 /* Pods_iTunesPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7527E41B1F01151CC3F70FA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				544B1E76A8C35C75D1544A3D /* Pods_iTunesPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C35B2AC277235370038F3E9 = {
 			isa = PBXGroup;
 			children = (
 				9C35B2B7277235370038F3E9 /* iTunesPlayer */,
 				9C35B2B6277235370038F3E9 /* Products */,
+				CE338846F736F576229A44D9 /* Pods */,
+				7527E41B1F01151CC3F70FA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,70 @@
 		9C35B2B7277235370038F3E9 /* iTunesPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				9C35B2D52774D6A60038F3E9 /* SearchVC */,
+				9C35B2D0277254A30038F3E9 /* Models */,
 				9C35B2B8277235370038F3E9 /* AppDelegate.swift */,
 				9C35B2BA277235370038F3E9 /* SceneDelegate.swift */,
 				9C35B2BC277235370038F3E9 /* ViewController.swift */,
+				9C35B2CC277235540038F3E9 /* MainTabBarController.swift */,
+				9C35B2F62774E0660038F3E9 /* Helpers */,
+				9C35B2CE2772381C0038F3E9 /* SearchMusicViewController.swift */,
 				9C35B2BE277235370038F3E9 /* Main.storyboard */,
 				9C35B2C12772353A0038F3E9 /* Assets.xcassets */,
 				9C35B2C32772353A0038F3E9 /* LaunchScreen.storyboard */,
 				9C35B2C62772353A0038F3E9 /* Info.plist */,
 			);
 			path = iTunesPlayer;
+			sourceTree = "<group>";
+		};
+		9C35B2D0277254A30038F3E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C35B2D1277254AE0038F3E9 /* TrackModel.swift */,
+				9C35B2D32774CC920038F3E9 /* NetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C35B2D52774D6A60038F3E9 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				9C35B2F72774F1450038F3E9 /* Cell */,
+				9C35B2F22774D8EB0038F3E9 /* SearchViewController.storyboard */,
+				9C35B2E82774D7A10038F3E9 /* SearchViewController.swift */,
+				9C35B2E92774D7A10038F3E9 /* SearchInteractor.swift */,
+				9C35B2E42774D7A10038F3E9 /* SearchPresenter.swift */,
+				9C35B2E72774D7A10038F3E9 /* SearchModels.swift */,
+				9C35B2E52774D7A10038F3E9 /* SearchWorker.swift */,
+				9C35B2E62774D7A10038F3E9 /* SearchRouter.swift */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		9C35B2F62774E0660038F3E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9C35B2F42774E04C0038F3E9 /* UIViewController+Storyboard.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9C35B2F72774F1450038F3E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9C35B2F82774F1600038F3E9 /* TrackCell.xib */,
+				9C35B2FA2774F1780038F3E9 /* TrackCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE338846F736F576229A44D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6D8619E505B80D438058AEC /* Pods-iTunesPlayer.debug.xcconfig */,
+				A431F212B31CED4F71D6F4FB /* Pods-iTunesPlayer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C35B2C92772353A0038F3E9 /* Build configuration list for PBXNativeTarget "iTunesPlayer" */;
 			buildPhases = (
+				2E9E30435188736CBA467985 /* [CP] Check Pods Manifest.lock */,
 				9C35B2B1277235370038F3E9 /* Sources */,
 				9C35B2B2277235370038F3E9 /* Frameworks */,
 				9C35B2B3277235370038F3E9 /* Resources */,
+				A1F600EEFE331D5DBC40D3A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +226,77 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C35B2C52772353A0038F3E9 /* LaunchScreen.storyboard in Resources */,
+				9C35B2F92774F1600038F3E9 /* TrackCell.xib in Resources */,
 				9C35B2C22772353A0038F3E9 /* Assets.xcassets in Resources */,
+				9C35B2F32774D8EB0038F3E9 /* SearchViewController.storyboard in Resources */,
 				9C35B2C0277235370038F3E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E9E30435188736CBA467985 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunesPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F600EEFE331D5DBC40D3A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C35B2B1277235370038F3E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C35B2CF2772381C0038F3E9 /* SearchMusicViewController.swift in Sources */,
+				9C35B2D2277254AE0038F3E9 /* TrackModel.swift in Sources */,
 				9C35B2BD277235370038F3E9 /* ViewController.swift in Sources */,
+				9C35B2F02774D7A10038F3E9 /* SearchInteractor.swift in Sources */,
+				9C35B2D42774CC920038F3E9 /* NetworkManager.swift in Sources */,
+				9C35B2FB2774F1780038F3E9 /* TrackCell.swift in Sources */,
 				9C35B2B9277235370038F3E9 /* AppDelegate.swift in Sources */,
+				9C35B2EC2774D7A10038F3E9 /* SearchWorker.swift in Sources */,
+				9C35B2EF2774D7A10038F3E9 /* SearchViewController.swift in Sources */,
+				9C35B2ED2774D7A10038F3E9 /* SearchRouter.swift in Sources */,
+				9C35B2EE2774D7A10038F3E9 /* SearchModels.swift in Sources */,
+				9C35B2CD277235540038F3E9 /* MainTabBarController.swift in Sources */,
+				9C35B2EB2774D7A10038F3E9 /* SearchPresenter.swift in Sources */,
 				9C35B2BB277235370038F3E9 /* SceneDelegate.swift in Sources */,
+				9C35B2F52774E04C0038F3E9 /* UIViewController+Storyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +440,7 @@
 		};
 		9C35B2CA2772353A0038F3E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D8619E505B80D438058AEC /* Pods-iTunesPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +469,7 @@
 		};
 		9C35B2CB2772353A0038F3E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A431F212B31CED4F71D6F4FB /* Pods-iTunesPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
