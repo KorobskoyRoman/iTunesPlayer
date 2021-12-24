@@ -27,6 +27,9 @@
 		9C35B2F52774E04C0038F3E9 /* UIViewController+Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2F42774E04C0038F3E9 /* UIViewController+Storyboard.swift */; };
 		9C35B2F92774F1600038F3E9 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B2F82774F1600038F3E9 /* TrackCell.xib */; };
 		9C35B2FB2774F1780038F3E9 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2FA2774F1780038F3E9 /* TrackCell.swift */; };
+		9C35B2FE27761A630038F3E9 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B2FD27761A630038F3E9 /* FooterView.swift */; };
+		9C35B301277621AA0038F3E9 /* TrackDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C35B300277621AA0038F3E9 /* TrackDetailsView.xib */; };
+		9C35B303277621B90038F3E9 /* TrackDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35B302277621B90038F3E9 /* TrackDetailsView.swift */; };
 		D4082A4E54107F99F46F1A00 /* Pods_iTunesPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544B1E76A8C35C75D1544A3D /* Pods_iTunesPlayer.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +57,9 @@
 		9C35B2F42774E04C0038F3E9 /* UIViewController+Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Storyboard.swift"; sourceTree = "<group>"; };
 		9C35B2F82774F1600038F3E9 /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		9C35B2FA2774F1780038F3E9 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
+		9C35B2FD27761A630038F3E9 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		9C35B300277621AA0038F3E9 /* TrackDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailsView.xib; sourceTree = "<group>"; };
+		9C35B302277621B90038F3E9 /* TrackDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsView.swift; sourceTree = "<group>"; };
 		A431F212B31CED4F71D6F4FB /* Pods-iTunesPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesPlayer.release.xcconfig"; path = "Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		A6D8619E505B80D438058AEC /* Pods-iTunesPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesPlayer.debug.xcconfig"; path = "Target Support Files/Pods-iTunesPlayer/Pods-iTunesPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +133,8 @@
 		9C35B2D52774D6A60038F3E9 /* SearchVC */ = {
 			isa = PBXGroup;
 			children = (
+				9C35B2FF277621810038F3E9 /* TrackDetailView */,
+				9C35B2FC27761A550038F3E9 /* FooterView */,
 				9C35B2F72774F1450038F3E9 /* Cell */,
 				9C35B2F22774D8EB0038F3E9 /* SearchViewController.storyboard */,
 				9C35B2E82774D7A10038F3E9 /* SearchViewController.swift */,
@@ -154,6 +162,23 @@
 				9C35B2FA2774F1780038F3E9 /* TrackCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		9C35B2FC27761A550038F3E9 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				9C35B2FD27761A630038F3E9 /* FooterView.swift */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		9C35B2FF277621810038F3E9 /* TrackDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9C35B300277621AA0038F3E9 /* TrackDetailsView.xib */,
+				9C35B302277621B90038F3E9 /* TrackDetailsView.swift */,
+			);
+			path = TrackDetailView;
 			sourceTree = "<group>";
 		};
 		CE338846F736F576229A44D9 /* Pods */ = {
@@ -229,6 +254,7 @@
 				9C35B2F92774F1600038F3E9 /* TrackCell.xib in Resources */,
 				9C35B2C22772353A0038F3E9 /* Assets.xcassets in Resources */,
 				9C35B2F32774D8EB0038F3E9 /* SearchViewController.storyboard in Resources */,
+				9C35B301277621AA0038F3E9 /* TrackDetailsView.xib in Resources */,
 				9C35B2C0277235370038F3E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +313,7 @@
 				9C35B2BD277235370038F3E9 /* ViewController.swift in Sources */,
 				9C35B2F02774D7A10038F3E9 /* SearchInteractor.swift in Sources */,
 				9C35B2D42774CC920038F3E9 /* NetworkManager.swift in Sources */,
+				9C35B2FE27761A630038F3E9 /* FooterView.swift in Sources */,
 				9C35B2FB2774F1780038F3E9 /* TrackCell.swift in Sources */,
 				9C35B2B9277235370038F3E9 /* AppDelegate.swift in Sources */,
 				9C35B2EC2774D7A10038F3E9 /* SearchWorker.swift in Sources */,
@@ -297,6 +324,7 @@
 				9C35B2EB2774D7A10038F3E9 /* SearchPresenter.swift in Sources */,
 				9C35B2BB277235370038F3E9 /* SceneDelegate.swift in Sources */,
 				9C35B2F52774E04C0038F3E9 /* UIViewController+Storyboard.swift in Sources */,
+				9C35B303277621B90038F3E9 /* TrackDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
