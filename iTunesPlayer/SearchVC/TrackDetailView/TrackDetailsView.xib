@@ -39,6 +39,7 @@
                             <subviews>
                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ord-6t-y7J">
                                     <rect key="frame" x="-2" y="0.0" width="358" height="31"/>
+                                    <color key="tintColor" red="1" green="0.0" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="handleCurrentTimerSlider:" destination="8Ez-Mh-McM" eventType="valueChanged" id="Kde-fM-IKX"/>
                                     </connections>
@@ -119,6 +120,7 @@
                                 </imageView>
                                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zZT-sk-rkG">
                                     <rect key="frame" x="25" y="0.0" width="304" height="18"/>
+                                    <color key="tintColor" red="1" green="0.0" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <connections>
                                         <action selector="handleVolumeSlider:" destination="8Ez-Mh-McM" eventType="valueChanged" id="6cW-Pj-3IY"/>
                                     </connections>
