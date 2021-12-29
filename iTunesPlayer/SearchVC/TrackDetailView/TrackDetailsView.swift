@@ -9,7 +9,7 @@ import UIKit
 import SDWebImage
 import AVKit
 
-protocol TrackMovingDelegate: AnyObject {
+protocol TrackMovingDelegate {
     func moveBackForPrevTrack() -> SearchViewModel.Cell?
     func moveForwardForPrevTrack() -> SearchViewModel.Cell?
 }
@@ -40,7 +40,7 @@ class TrackDetailsView: UIView {
         return avPlayer
     }()
     
-    weak var delegate: TrackMovingDelegate?
+    var delegate: TrackMovingDelegate?
     weak var tabBarDelegate: MainTabBarControllerDelegate?
     
     override func awakeFromNib() {

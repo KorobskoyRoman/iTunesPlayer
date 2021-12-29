@@ -22,7 +22,7 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     private var searchViewModel = SearchViewModel.init(cells: [])
     private var timer: Timer?
     private lazy var footerView = FooterView()
-    weak var tabBarDelegate: MainTabBarControllerDelegate?
+    var tabBarDelegate: MainTabBarControllerDelegate?
     
     // MARK: Setup
     
@@ -51,6 +51,20 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
         setupSearchBar()
         setupTableView()
         searchBar(searchController.searchBar, textDidChange: "tecca") //грузим треки при открытии приложения
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let keyWindow = UIApplication.shared.connectedScenes
+        .filter({$0.activationState == .foregroundActive})
+        .map({$0 as? UIWindowScene})
+        .compactMap({$0})
+        .first?.windows
+        .filter({$0.isKeyWindow}).first
+        
+        let tabBarVC = keyWindow?.rootViewController as? MainTabBarController
+        tabBarVC?.trackDetailView.delegate = self
     }
     
     private func setupSearchBar() {
@@ -139,7 +153,7 @@ extension SearchViewController: UISearchBarDelegate {
 extension SearchViewController: TrackMovingDelegate {
     
     private func getTrack(isForwardTrack: Bool) -> SearchViewModel.Cell? {
-        guard let indexPath = table.indexPathForSelectedRow else { return nil}
+        guard let indexPath = table.indexPathForSelectedRow else { return nil }
         table.deselectRow(at: indexPath, animated: true)
         var nextIndexPath: IndexPath!
         if isForwardTrack {
